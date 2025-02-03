@@ -3,13 +3,13 @@ package org.example;
 import java.io.File;
 import java.util.Objects;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import static org.example.TempEnum.*;
+
 public class DeleteTemporaryFiles {
     public static void main(String[] args) {
-        File tempFile = new File("C:\\Users\\pradeep.a.ramaiah\\AppData\\Local\\Temp");
-        File recentFile = new File("C:\\Users\\pradeep.a.ramaiah\\Recent");
-        File windowTempFile = new File("C:\\Windows\\Temp");
+        File tempFile = new File(TEMP.value());
+        File recentFile = new File(RECENT.value());
+        File windowTempFile = new File(WINDOWS_TEMP.value());
         File files[] = {tempFile, recentFile};
         for (File file : files) {
             deleteTempFiles(file);
