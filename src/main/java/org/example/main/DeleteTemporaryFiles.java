@@ -1,9 +1,9 @@
-package org.example;
+package org.example.main;
 
 import java.io.File;
 import java.util.Objects;
 
-import static org.example.TempEnum.*;
+import static org.example.util.TempEnum.*;
 
 public class DeleteTemporaryFiles {
     public static void main(String[] args) {

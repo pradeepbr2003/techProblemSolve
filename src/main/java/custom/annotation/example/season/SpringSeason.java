@@ -1,4 +1,4 @@
-package custom.annotation;
+package custom.annotation.example.season;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -7,6 +7,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SummerSeason {
-    String name() default "Summer Season";
+public @interface SpringSeason {
+    String name() default "Spring Season";
 }

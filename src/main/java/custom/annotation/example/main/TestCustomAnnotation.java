@@ -1,7 +1,6 @@
-package custom.annotation.example;
+package custom.annotation.example.main;
 
-import custom.annotation.AutumnSeason;
-import custom.annotation.SummerSeason;
+import custom.annotation.example.util.AnnotationEnum;
 import custom.annotation.example.dto.Car;
 import custom.annotation.example.dto.Scooter;
 

@@ -1,7 +1,7 @@
 package custom.annotation.example.dto;
 
-import custom.annotation.SummerSeason;
-import custom.annotation.WinterSeason;
+import custom.annotation.example.season.SummerSeason;
+import custom.annotation.example.season.WinterSeason;
 import lombok.Data;
 
 @WinterSeason(name = "Car is comfortable in winter season")
