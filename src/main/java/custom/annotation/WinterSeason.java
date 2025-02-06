@@ -8,4 +8,5 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface WinterSeason {
+    String name() default "Winter Season";
 }

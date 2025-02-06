@@ -4,11 +4,11 @@ import custom.annotation.SummerSeason;
 import custom.annotation.WinterSeason;
 import lombok.Data;
 
-@WinterSeason
-@SummerSeason
+@WinterSeason(name = "Car is comfortable in winter season")
+@SummerSeason(name = "Car is comfortable at summer season")
 @Data
 public class Car {
-    private int capcity;
+    private int capacity;
     private String season;
     private double serviceCost;
 

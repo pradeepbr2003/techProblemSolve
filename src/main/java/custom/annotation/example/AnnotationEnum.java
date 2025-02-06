@@ -14,6 +14,7 @@ public enum AnnotationEnum {
     WINTER_SEASON(Car.class.getDeclaredAnnotation(WinterSeason.class)),
     SPRING_SEASON(Scooter.class.getDeclaredAnnotation(SpringSeason.class)),
     AUTUMN_SEASON(Scooter.class.getDeclaredAnnotation(AutumnSeason.class));
+
     private Annotation annotation;
 
     <A extends Annotation> AnnotationEnum(A a) {

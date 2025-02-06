@@ -4,8 +4,8 @@ import custom.annotation.AutumnSeason;
 import custom.annotation.SpringSeason;
 import lombok.Data;
 
-@AutumnSeason
-@SpringSeason
+@AutumnSeason(name = "Scooter riding is good in autumn season")
+@SpringSeason(name = "Scooter riding is good in spring season")
 @Data
 public class Scooter {
     private int capcity;
